@@ -67,7 +67,6 @@ setup(
     ],
     install_requires=read_requirements('requirements.txt'),
     tests_require=read_requirements('requirements_tests.txt'),
-    entry_points=entry_points,
     cmdclass={'test': PyTest},
     zip_safe=False,
 )
